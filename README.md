@@ -1,6 +1,7 @@
 # tf-lambda
 
-Example of using Terraform, a Lambda, and Lambda Layers. Project setup / structure / etc
+Example of using Terraform, a Lambda, and Lambda Layers. Project setup / structure / etc. Send a number to API endpoint
+and it will tell you if it's odd or not.
 
 ## Usage
     # cd my-service
