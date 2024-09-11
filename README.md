@@ -1,2 +1,7 @@
 # tf-lambda
-Node JS lambda and Terraform deploy poc
+
+Example of using Terraform, a Lambda, and Lambda Layers. Project setup / structure / etc
+
+## Usage
+Use the Makefile, required npm and nodejs
+
