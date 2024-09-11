@@ -8,7 +8,8 @@ Example of using Terraform, a Lambda, and Lambda Layers. Project setup / structu
     # terraform init
     # terraform apply
 
-
+# Test
+    curl -X POST -H "Content-Type: application/json" -d '{"number": 2}' <API ENDPOINT>
 # Links
 
 * https://medium.com/@heenriquecds/terraform-creating-node-js-lambda-functions-with-packages-cddc9a91cf93
