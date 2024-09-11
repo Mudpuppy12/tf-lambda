@@ -3,7 +3,11 @@
 Example of using Terraform, a Lambda, and Lambda Layers. Project setup / structure / etc
 
 ## Usage
-Use the Makefile, required npm and nodejs
+    # cd my-service
+    # make
+    # terraform init
+    # terraform apply
+
 
 # Links
 
