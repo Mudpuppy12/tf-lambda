@@ -1,0 +1,25 @@
+{
+  "name": "is-odd-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsup index.ts",
+    "postbuild": "cd dist && zip -r index.zip index.js",
+    "layer:build": "cd ../../layers/util-layer/nodejs && npm install && cd .. && zip -r util-layer.zip nodejs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/is-odd": "^3.0.4",
+    "@types/node": "^22.5.4",
+    "aws-cdk": "^2.157.0",
+    "aws-lambda": "^1.0.7",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2"
+  }
+}
